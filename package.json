@@ -4,12 +4,16 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "test": "jest --watch",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "deploy": "vue-cli-service s3-deploy",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "vue": "^2.5.16"
+    "vue": "^2.5.16",
+    "vue-cli-plugin-s3-deploy": "^2.0.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.0-rc.5",
