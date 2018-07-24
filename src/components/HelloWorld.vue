@@ -7,6 +7,7 @@
       <a href="https://cli.vuejs.org" target="_blank">vue-cli documentation</a>.
     </p>
     <h3>Testing public deployment</h3>
+    <h1>Testing Semaphore</h1>
     <h3>Essential Links</h3>
     <ul>
       <li><a href="https://vuejs.org" target="_blank">Core Docs</a></li>
